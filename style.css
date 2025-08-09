@@ -1,4 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    height: 20vh;
+    width: auto;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: large;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    
 }
